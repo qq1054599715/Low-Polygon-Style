@@ -8,7 +8,6 @@ public class TesImageProcess : MonoBehaviour
 
 	public float progress = 1;
 
-	public Mosaike Mosaike;
 	public PossionStyle PossionStyle;
 	
 	public Vector2 minCellSize = new Vector2(10,10);
@@ -17,7 +16,6 @@ public class TesImageProcess : MonoBehaviour
 	// Use this for initialization
 	void Start ()
 	{
-		Mosaike = new Mosaike();
 		PossionStyle = new PossionStyle();
 	}
 	
