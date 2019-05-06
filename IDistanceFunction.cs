@@ -93,7 +93,7 @@ namespace Gamelogic.Extensions.Internal.KDTree
 
 			return sum;
 		}
-	}
+	} 
 
 	/// <summary>
 	/// A distance function for our KD-Tree which returns squared euclidean distances.
